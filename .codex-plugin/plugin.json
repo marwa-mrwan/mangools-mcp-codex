@@ -1,0 +1,29 @@
+{
+  "name": "mangools-mcp",
+  "version": "1.0.0",
+  "description": "Standalone Mangools MCP server for keyword, SERP, backlink, competitor, rank-tracking, and AI visibility research.",
+  "author": {
+    "name": "marwa-mrwan",
+    "url": "https://github.com/marwa-mrwan"
+  },
+  "homepage": "https://github.com/marwa-mrwan/mangools-mcp",
+  "repository": "https://github.com/marwa-mrwan/mangools-mcp",
+  "license": "MIT",
+  "keywords": ["mangools", "kwfinder", "serpchecker", "serpwatcher", "linkminer", "siteprofiler", "aiwatcher", "seo"],
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Mangools MCP",
+    "shortDescription": "Standalone Mangools research MCP.",
+    "longDescription": "MCP tools for KWFinder, SERPChecker, SERPWatcher, LinkMiner, SiteProfiler, and AI Search Watcher.",
+    "developerName": "marwa-mrwan",
+    "category": "Marketing",
+    "capabilities": ["MCP", "Research", "Analysis"],
+    "websiteURL": "https://github.com/marwa-mrwan/mangools-mcp",
+    "defaultPrompt": [
+      "Research keywords and SERP competitors for this page.",
+      "Analyze backlinks and competing domains.",
+      "Review rank tracking and AI search visibility."
+    ],
+    "brandColor": "#E6522C"
+  }
+}

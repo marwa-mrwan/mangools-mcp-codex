@@ -1,0 +1,11 @@
+{
+  "servers": {
+    "mangools": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["${workspaceFolder}/index.js"],
+      "envFile": "${workspaceFolder}/.vscode/mcp.local.env"
+    }
+  },
+  "inputs": []
+}

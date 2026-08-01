@@ -1,0 +1,15 @@
+.env
+.env.*
+!.env.example
+
+.vscode/*.local.*
+.vscode/mcp.local.env
+
+**/node_modules/
+**/npm-debug.log*
+**/tmp/
+**/outputs/
+
+**/*credential*.json
+**/*secret*.json
+**/*token*.json

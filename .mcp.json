@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "mangools": {
+      "command": "node",
+      "args": ["index.js"],
+      "env": {
+        "MCP_SECRETS_ENV_FILE": ".env"
+      }
+    }
+  }
+}
